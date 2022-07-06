@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(7, 43, 80);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+}
+
+.add-btn {
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.posts {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+}
+
+.modal {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-not-visible {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+.form {
+    height: 600px;
+    width: 50%;
+    margin: 70px auto;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.form-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-header-text {
+    font-size: 30px;
+}
+
+.close-btn {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(7, 43, 80);
+    margin: 10px;
+}
+
+label {
+    font-size: 25px;
+}
+
+.form-group {
+    padding: 25px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 20px;
+}
+
+.btn {
+    padding: 20px 40px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    background-color: rgb(7, 43, 80);
+    color: #fff;
+    border: none;
+}
+.btn:hover{
+    background-color: rgba(7, 44, 80, 0.9);
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,24 @@
+body{
+    max-width: 500px;
+}
+
+.note{
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    transition: .1s ease all;
+    margin: 60px;
+}
+.note:hover{
+    transform: scale(1.1);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    align-items: center;
+}
+.content {
+    text-align: justify;
+    margin: 20px 15px;
+}
